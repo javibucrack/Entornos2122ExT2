@@ -1,8 +1,8 @@
 public class Problema1 {
 
-    public String cadena() {
+    public String cadena(int numEmpezar,int numAcabar) {
         String cadena = new String();
-        for (int i = 1; i <= 20; i++) {
+        for (int i = numEmpezar; i <= numAcabar; i++) {
             if (i % 3 == 0) {
                 cadena = cadena + "Fizz";
             }
