@@ -1,4 +1,4 @@
-public class Problema1 {
+public class Problema2 {
 
     public String cadena(int numEmpezar, int numAcabar) {
         String cadena = new String();
