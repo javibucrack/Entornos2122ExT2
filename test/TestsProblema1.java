@@ -2,16 +2,17 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class TestsProblema1 {
+    
 
     @Test
-    public void cadena_del_1_al_20() {
+    public void Fizz_Buzz_cadena() {
         Problema1 problema1 = new Problema1();
 
-        String cadena = problema1.cadena();
+        String Fizz = problema1.cadena();
 
-        String expected = "1234567891011121314151617181920";
+        String expected = "12Fizz34BuzzFizz678Fizz9Buzz11Fizz121314FizzBuzz1617Fizz1819Buzz";
 
-        Assertions.assertEquals(expected, cadena);
+        Assertions.assertEquals(expected, Fizz);
     }
 
 }
